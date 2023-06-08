@@ -1,7 +1,8 @@
 ---
-title: Hello
+title: 少し長めのタイトルの場合はどうなる？少し長めのタイトルの場合はどうなる？少し
+slug: hello
 description: Nuxt Content × SSG で作る静的ブログ。概念とセットアップについてまずは解説
-thumbnail:
+thumbnail: /img/icon-green.png
 ---
 
 # Hello nuxt/content v2!

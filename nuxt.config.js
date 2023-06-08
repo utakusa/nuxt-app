@@ -19,4 +19,12 @@ export default defineNuxtConfig({
             theme: "github-dark-dimmed",
         },
     },
+    buildModules: [
+        "@nuxtjs/google-fonts", //追加
+    ],
+    googleFonts: {
+        families: {
+            NotoSansJP: [100, 400, 500, 700],
+        },
+    },
 });
