@@ -1,0 +1,67 @@
+#__nuxt {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+body {
+    color: $blackPrimary;
+    background-color: $whitePrimary;
+}
+.l-footer {
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
+.l-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 5px;
+    &__logo {
+        margin-left: 0;
+        margin-right: auto;
+    }
+    &__nav {
+    }
+}
+.l-container{
+    width:100%;
+    max-width:1024px;
+    margin:0 auto;
+}
+.p-logo-global {
+    width: 42.5px;
+    height: 42.5px;
+    background-color: $greenPrimary;
+    border-radius: 12px 6px 9px 40px;
+}
+
+
+.p-nav {
+    &__menu {
+        display: inline-block;
+        margin-left: 12px;
+        transition: 0.3s;
+        font-size: 14px;
+        padding: 8px 28px;
+        border-radius: 9px 16px;
+        border: 1px solid $greenPrimary;
+        &:hover {
+            color: $whitePrimary;
+            background-color: $greenPrimary;
+        }
+    }
+}
+
+.p-footer {
+    text-align: center;
+}
+
+//nuxt component
+#entries {
+}
+#entry {
+    img {
+        width: 100px;
+    }
+}
